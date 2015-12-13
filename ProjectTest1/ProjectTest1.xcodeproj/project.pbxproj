@@ -15,7 +15,7 @@
 		0099BF601C1D55BB00F0AEDE /* ProjectTest1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0099BF5F1C1D55BB00F0AEDE /* ProjectTest1UITests.m */; };
 		AABE40FA1C1D5B8E00C54C67 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE40F81C1D5B8E00C54C67 /* RootViewController.m */; settings = {ASSET_TAGS = (); }; };
 		AABE40FB1C1D5B8E00C54C67 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AABE40F91C1D5B8E00C54C67 /* RootViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		AABE40FE1C1D5D8E00C54C67 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE40FD1C1D5D8E00C54C67 /* BaseViewController.m */; settings = {ASSET_TAGS = (); }; };
+		AABE41011C1D6F5C00C54C67 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE41001C1D6F5C00C54C67 /* BaseViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		AABE40F71C1D5B8E00C54C67 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		AABE40F81C1D5B8E00C54C67 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		AABE40F91C1D5B8E00C54C67 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
-		AABE40FC1C1D5D8E00C54C67 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		AABE40FD1C1D5D8E00C54C67 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		AABE40FF1C1D6F5C00C54C67 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		AABE41001C1D6F5C00C54C67 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +106,8 @@
 			children = (
 				0099BF3D1C1D55BA00F0AEDE /* AppDelegate.h */,
 				0099BF3E1C1D55BA00F0AEDE /* AppDelegate.m */,
-				AABE40FC1C1D5D8E00C54C67 /* BaseViewController.h */,
-				AABE40FD1C1D5D8E00C54C67 /* BaseViewController.m */,
+				AABE40FF1C1D6F5C00C54C67 /* BaseViewController.h */,
+				AABE41001C1D6F5C00C54C67 /* BaseViewController.m */,
 				AABE40F71C1D5B8E00C54C67 /* RootViewController.h */,
 				AABE40F81C1D5B8E00C54C67 /* RootViewController.m */,
 				AABE40F91C1D5B8E00C54C67 /* RootViewController.xib */,
@@ -279,7 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0099BF3F1C1D55BA00F0AEDE /* AppDelegate.m in Sources */,
-				AABE40FE1C1D5D8E00C54C67 /* BaseViewController.m in Sources */,
+				AABE41011C1D6F5C00C54C67 /* BaseViewController.m in Sources */,
 				AABE40FA1C1D5B8E00C54C67 /* RootViewController.m in Sources */,
 				0099BF3C1C1D55BA00F0AEDE /* main.m in Sources */,
 			);
