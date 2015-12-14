@@ -9,7 +9,6 @@
 #import "BaseViewController.h"
 
 @interface BaseViewController ()
-@property (nonatomic , copy) NSString *lalalalala;
 @end
 
 @implementation BaseViewController

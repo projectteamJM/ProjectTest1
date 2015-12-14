@@ -1,0 +1,39 @@
+PODS:
+  - AFNetworking (3.0.1):
+    - AFNetworking/NSURLSession (= 3.0.1)
+    - AFNetworking/Reachability (= 3.0.1)
+    - AFNetworking/Security (= 3.0.1)
+    - AFNetworking/Serialization (= 3.0.1)
+    - AFNetworking/UIKit (= 3.0.1)
+  - AFNetworking/NSURLSession (3.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.1)
+  - AFNetworking/Security (3.0.1)
+  - AFNetworking/Serialization (3.0.1)
+  - AFNetworking/UIKit (3.0.1):
+    - AFNetworking/NSURLSession
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - SVProgressHUD (2.0-beta)
+  - YYKit (0.9.6):
+    - YYKit/no-arc (= 0.9.6)
+  - YYKit/no-arc (0.9.6)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0.1)
+  - FMDB (~> 2.5)
+  - SVProgressHUD (~> 2.0-beta)
+  - YYKit (~> 0.9.6)
+
+SPEC CHECKSUMS:
+  AFNetworking: 20d8749e03e45f1e5c046ad0b647e0b07bcdd91f
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  SVProgressHUD: c83337f10ed32d701c423d519059a249973c8662
+  YYKit: 7e27f6b55883bfe3ec2b98e7ad9c38fcbb92a1c5
+
+COCOAPODS: 0.38.2
