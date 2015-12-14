@@ -13,9 +13,9 @@
 		0099BF4A1C1D55BA00F0AEDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0099BF481C1D55BA00F0AEDE /* LaunchScreen.storyboard */; };
 		0099BF551C1D55BA00F0AEDE /* ProjectTest1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0099BF541C1D55BA00F0AEDE /* ProjectTest1Tests.m */; };
 		0099BF601C1D55BB00F0AEDE /* ProjectTest1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0099BF5F1C1D55BB00F0AEDE /* ProjectTest1UITests.m */; };
-		AABE40FA1C1D5B8E00C54C67 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE40F81C1D5B8E00C54C67 /* RootViewController.m */; settings = {ASSET_TAGS = (); }; };
-		AABE40FB1C1D5B8E00C54C67 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AABE40F91C1D5B8E00C54C67 /* RootViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		AABE41011C1D6F5C00C54C67 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE41001C1D6F5C00C54C67 /* BaseViewController.m */; settings = {ASSET_TAGS = (); }; };
+		AABE40FA1C1D5B8E00C54C67 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE40F81C1D5B8E00C54C67 /* RootViewController.m */; };
+		AABE40FB1C1D5B8E00C54C67 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AABE40F91C1D5B8E00C54C67 /* RootViewController.xib */; };
+		AABE41011C1D6F5C00C54C67 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE41001C1D6F5C00C54C67 /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +49,7 @@
 		0099BF5B1C1D55BA00F0AEDE /* ProjectTest1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectTest1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0099BF5F1C1D55BB00F0AEDE /* ProjectTest1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectTest1UITests.m; sourceTree = "<group>"; };
 		0099BF611C1D55BB00F0AEDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0099BFAC1C1E5A5A00F0AEDE /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		AABE40F71C1D5B8E00C54C67 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		AABE40F81C1D5B8E00C54C67 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		AABE40F91C1D5B8E00C54C67 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
@@ -104,6 +105,7 @@
 		0099BF391C1D55BA00F0AEDE /* ProjectTest1 */ = {
 			isa = PBXGroup;
 			children = (
+				0099BFAC1C1E5A5A00F0AEDE /* Header.h */,
 				0099BF3D1C1D55BA00F0AEDE /* AppDelegate.h */,
 				0099BF3E1C1D55BA00F0AEDE /* AppDelegate.m */,
 				AABE40FF1C1D6F5C00C54C67 /* BaseViewController.h */,
