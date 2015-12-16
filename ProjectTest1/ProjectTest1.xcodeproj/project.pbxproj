@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		002300591C1FB05C001EF982 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002300581C1FB05C001EF982 /* Main.storyboard */; };
+		002300A01C1FF416001EF982 /* RootTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0023009F1C1FF416001EF982 /* RootTitleView.m */; };
+		002300AA1C201383001EF982 /* RootViewTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 002300A91C201383001EF982 /* RootViewTitleCell.m */; };
 		0099BF3C1C1D55BA00F0AEDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0099BF3B1C1D55BA00F0AEDE /* main.m */; };
 		0099BF3F1C1D55BA00F0AEDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0099BF3E1C1D55BA00F0AEDE /* AppDelegate.m */; };
 		0099BF471C1D55BA00F0AEDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0099BF461C1D55BA00F0AEDE /* Assets.xcassets */; };
@@ -37,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		002300581C1FB05C001EF982 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0023009E1C1FF416001EF982 /* RootTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTitleView.h; sourceTree = "<group>"; };
+		0023009F1C1FF416001EF982 /* RootTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTitleView.m; sourceTree = "<group>"; };
+		002300A81C201383001EF982 /* RootViewTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewTitleCell.h; sourceTree = "<group>"; };
+		002300A91C201383001EF982 /* RootViewTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewTitleCell.m; sourceTree = "<group>"; };
 		0099BF371C1D55BA00F0AEDE /* ProjectTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0099BF3B1C1D55BA00F0AEDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0099BF3D1C1D55BA00F0AEDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -115,10 +123,15 @@
 				0099BFAC1C1E5A5A00F0AEDE /* Header.h */,
 				0099BF3D1C1D55BA00F0AEDE /* AppDelegate.h */,
 				0099BF3E1C1D55BA00F0AEDE /* AppDelegate.m */,
+				002300A81C201383001EF982 /* RootViewTitleCell.h */,
+				002300A91C201383001EF982 /* RootViewTitleCell.m */,
 				AABE40FF1C1D6F5C00C54C67 /* BaseViewController.h */,
 				AABE41001C1D6F5C00C54C67 /* BaseViewController.m */,
 				AABE40F71C1D5B8E00C54C67 /* RootViewController.h */,
 				AABE40F81C1D5B8E00C54C67 /* RootViewController.m */,
+				002300581C1FB05C001EF982 /* Main.storyboard */,
+				0023009E1C1FF416001EF982 /* RootTitleView.h */,
+				0023009F1C1FF416001EF982 /* RootTitleView.m */,
 				AABE40F91C1D5B8E00C54C67 /* RootViewController.xib */,
 				0099BF3A1C1D55BA00F0AEDE /* Supporting Files */,
 			);
@@ -280,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0099BF4A1C1D55BA00F0AEDE /* LaunchScreen.storyboard in Resources */,
+				002300591C1FB05C001EF982 /* Main.storyboard in Resources */,
 				0099BF471C1D55BA00F0AEDE /* Assets.xcassets in Resources */,
 				AABE40FB1C1D5B8E00C54C67 /* RootViewController.xib in Resources */,
 			);
@@ -340,9 +354,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0099BF3F1C1D55BA00F0AEDE /* AppDelegate.m in Sources */,
+				002300AA1C201383001EF982 /* RootViewTitleCell.m in Sources */,
 				AABE41011C1D6F5C00C54C67 /* BaseViewController.m in Sources */,
 				AABE40FA1C1D5B8E00C54C67 /* RootViewController.m in Sources */,
 				0099BF3C1C1D55BA00F0AEDE /* main.m in Sources */,
+				002300A01C1FF416001EF982 /* RootTitleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +491,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = /Users/a/Desktop/Code/Github/ProjectTest1/ProjectTest1/ProjectTest1/Header.h;
 				INFOPLIST_FILE = ProjectTest1/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -489,6 +506,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = /Users/a/Desktop/Code/Github/ProjectTest1/ProjectTest1/ProjectTest1/Header.h;
 				INFOPLIST_FILE = ProjectTest1/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

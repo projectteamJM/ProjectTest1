@@ -7,8 +7,11 @@
 //
 
 #import "RootViewController.h"
+#import "RootTitleView.h"
+#import "RootViewTitleCell.h"
+@interface RootViewController ()<UICollectionViewDataSource,UICollectionViewDataSource>
+@property (weak, nonatomic) IBOutlet RootTitleView *rootTitleView;
 
-@interface RootViewController ()
 
 @end
 
@@ -17,6 +20,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+
+    
+}
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+    return 5;
+}
+
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+    RootViewTitleCell *cell = (RootViewTitleCell *)[collectionView dequeueReusableCellWithReuseIdentifier:@"RootViewTitleCell1" forIndexPath:indexPath];
+    return cell;
 }
 
 - (void)didReceiveMemoryWarning {
